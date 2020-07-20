@@ -1,0 +1,15 @@
+Id - numero - SMALLINT - NOTNULL - (AUTO_INCREMENT - UNIQUE)
+Marca - stringa - VARCHAR(20) - NOTNULL
+Modello - stringa - VARCHAR(50) - NOTNULL
+Motore - stringa - VARCHAR(20) - NOTNULL
+Cilindrata - numero - SMALLINT - NULL
+Porte - numero - TINYINT - NULL
+Categoria - stringa - VARCHAR(20) - NULL
+Prezzo - numero - MEDIUMINT - NOTNULL
+Anno - numero - YEAR - NULL
+Km - numero - MEDIUMINT - NULL
+Potenza - numero - SMALLINT - NULL
+Cambio - stringa - VARCHAR(20) - NOTNULL
+Optionals - stringa - TEXT - NULL
+Foto - stringa - VARCHAR(100) - NOTNULL
+Emissioni - numero - SMALL - NULL
